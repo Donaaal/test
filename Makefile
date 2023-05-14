@@ -1,4 +1,4 @@
 runtest:test
 	./test
-test:test2.cpp
+test:test.c
 	g++ $^ -o $@

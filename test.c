@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "hello.h"
 int fab(int n);
-int jiecheng(int n);
+int factorial(int n);
 int main(){
   printf("0.1+0.2=%f\n",0.1+0.2);
   printf("fab(6)=%d\nfactorial(6)=%d\n",fab(8),factorial(8));
