@@ -3,7 +3,7 @@ EXEC=test
 CC=g++
 CFLAGS=-Wall
 
-run: format $(EXEC)
+run: $(EXEC)
 	./$(EXEC)
 
 $(EXEC): $(SRC)
